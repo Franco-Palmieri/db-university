@@ -1,3 +1,5 @@
+ESERCIZIO 1
+
 Query:
 
 1) SELECT*FROM`students`WHERE`date_of_birth`>='1990-01-01'AND`date_of_birth`<='1990-12-31'
@@ -15,3 +17,15 @@ Query:
 7) SELECT COUNT(*) FROM `departments`
 
 8) SELECT COUNT(*) FROM `teachers` WHERE `phone` IS NULL
+
+ESERCIZIO 2
+
+Query:
+
+1) SELECT COUNT(*) FROM `students` GROUP BY `enrolment_date`  // Come inserisco anche gli anni?
+
+2) SELECT COUNT(*) FROM `teachers` GROUP BY `office_address` = `office_address` // Non sicuro
+
+3) SELECT AVG(vote) FROM `exam_student`
+
+4)
